@@ -1,1 +1,2 @@
-# mj-cdn.github.io
+# minejogo.com.br
+Nothing ¯\_(ツ)_/¯
