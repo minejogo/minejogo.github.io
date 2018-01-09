@@ -11,22 +11,23 @@ var href= window.location.href;
 </head>
 
 <body>
+<div class="wwwtutorial">
 <p>Caso a página não funcione, adicione <span style='color:#00bd2c!important;'><b>www</b></span> no ínicio depois do http(s)</p>
 <p>Exemplo: https://<span style='color:#00bd2c!important;'><b>www</b></span>.minejogo.com.br<span onclick="myFunction()" id="demo"></span></p>
+
 <script>
 function myFunction() {
     var x = location.pathname
     document.getElementById("demo").innerHTML = x;
 }
-
 window.onload = function(){
     var button = document.getElementById('demo');
     setInterval(function(){
         button.click();
     },0);  // this will make it click again every 1000 miliseconds
 };
-
 </script>
+<style>.wwwtutorial{border:double 3px #000;text-align:center;background-color:#f9f9f9;color: #f00; font-size: 20px; font-family: auto;}</style>
   
   <script type="text/javascript">
 var host= window.location.host;
