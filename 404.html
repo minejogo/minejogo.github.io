@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Caso a página não funcione, adicione www no ínicio do link</title>
 <script type="text/javascript">
 var host= window.location.host;
 var href= window.location.href;
@@ -10,6 +11,15 @@ var href= window.location.href;
 </head>
 
 <body>
+  <p>Caso a página não funcione, adicione www no ínicio do link</p>
+  
+  <script type="text/javascript">
+var host= window.location.host;
+var href= window.location.href;
+}
+</script>
+  <script type="text/javascript">if( !/\.?www./g.test(location.host) ) location.href = location.href.replace("://","://www.")</script>
+  
 </body>
 
 </html>
